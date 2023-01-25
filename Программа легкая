@@ -7,3 +7,7 @@ public static void Main()
 Console.Write("a= ");
 double a=double.parse(console.readline());
 Console.Write("b= ");
+double b=double.parse(console.readline());
+Console.Writeline("{0}+{1}+{2}",a,b,+b);
+}
+}
